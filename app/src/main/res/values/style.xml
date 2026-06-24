@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- No ActionBar Theme for the Whole App -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <!-- Transparent Bottom Sheet Theme -->
+    <style name="TransparentBottomSheetTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="bottomSheetStyle">@style/TransparentBottomSheetStyle</item>
+    </style>
+
+    <!-- Bottom Sheet Background Transparent -->
+    <style name="TransparentBottomSheetStyle" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    <!-- Custom Toolbar Style (if you need it later) -->
+    <style name="CustomToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:titleTextColor">@android:color/white</item>
+    </style>
+
+</resources>
