@@ -1,0 +1,145 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/bg"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginBottom="10dp"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/r1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview3"
+				android:focusable="false"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:padding="5dp"
+				android:src="@drawable/scanner"
+				android:scaleType="centerInside" />
+			<TextView
+				android:id="@+id/scan"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Scan"
+				android:textSize="14sp"
+				android:textColor="#616161" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear_div1"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:padding="8dp"
+			android:background="#EEEEEE"
+			android:orientation="horizontal" />
+		<LinearLayout
+			android:id="@+id/r2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview7"
+				android:focusable="false"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:padding="5dp"
+				android:src="@drawable/add_friend"
+				android:scaleType="centerCrop" />
+			<TextView
+				android:id="@+id/add_friend"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Add Friend"
+				android:textSize="14sp"
+				android:textColor="#616161" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear_div2"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:padding="8dp"
+			android:background="#EEEEEE"
+			android:orientation="horizontal" />
+		<LinearLayout
+			android:id="@+id/r3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview9"
+				android:focusable="false"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:padding="5dp"
+				android:src="@drawable/settings_lite"
+				android:scaleType="centerCrop" />
+			<TextView
+				android:id="@+id/settings"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Settings"
+				android:textSize="14sp"
+				android:textColor="#616161" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear_div3"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:padding="8dp"
+			android:background="#EEEEEE"
+			android:orientation="horizontal" />
+		<LinearLayout
+			android:id="@+id/r4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/imageview8"
+				android:focusable="false"
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:src="@drawable/quickchat"
+				android:scaleType="centerCrop" />
+			<TextView
+				android:id="@+id/pair"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Quick Chat"
+				android:textSize="14sp"
+				android:textColor="#616161" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
